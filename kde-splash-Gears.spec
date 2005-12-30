@@ -10,8 +10,7 @@ Group:		X11/Amusements
 # source files were repackaged into one tar because builder wasn't
 # able to correctly handle spaces in original filenames
 Source0:	%{name}.tar.gz
-# NoSource0-md5:	1f175c9f50e58d8831ea279d4d493130
-NoSource:	0
+# Source0-md5:	1f175c9f50e58d8831ea279d4d493130
 URL:		http://www.kde-look.org/content/show.php?content=30999
 Provides:	kde-splash
 Requires:	kdebase-desktop >= 9:3.2.0
