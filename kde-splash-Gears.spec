@@ -12,8 +12,8 @@ Group:		X11/Amusements
 Source0:	%{name}.tar.gz
 # Source0-md5:	1f175c9f50e58d8831ea279d4d493130
 URL:		http://www.kde-look.org/content/show.php?content=30999
-Provides:	kde-splash
 Requires:	kdebase-desktop >= 9:3.2.0
+Provides:	kde-splash
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
