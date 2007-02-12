@@ -1,7 +1,7 @@
 %define		_splash		Gears
 
 Summary:	KDE splash screens
-Summary(pl):	Ekrany startowe KDE
+Summary(pl.UTF-8):   Ekrany startowe KDE
 Name:		kde-splash-%{_splash}
 Version:	1.0
 Release:	1
@@ -21,9 +21,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Collection of simple but nice splash screens with KDE Gears. Contains
 seven different versions.
 
-%description -l pl
-Kolekcja prostych, ale ³adnych ekranów startowych z "zêbatkami KDE".
-Zawiera siedem ró¿nych wersji.
+%description -l pl.UTF-8
+Kolekcja prostych, ale Å‚adnych ekranÃ³w startowych z "zÄ™batkami KDE".
+Zawiera siedem rÃ³Å¼nych wersji.
 
 %prep
 %setup -q -c %{_splash} -n %{_splash}
